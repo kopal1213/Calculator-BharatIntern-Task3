@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lugrasimo', cursive;
+    background-color: #201e1e;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    margin: 10px;
+}
+.container{
+    margin: 10px;
+    width: max-content;
+    padding: 20px;
+    border: 1px solid #717377;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119,0.5);
+}
+.button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 280px;
+    font-size: 30px;
+    text-align: right;
+    padding: 24px;
+    margin: 10px;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    cursor: pointer;
+}
+.row input::placeholder{
+    color: #ffffff;
+}
